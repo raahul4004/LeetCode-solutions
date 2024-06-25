@@ -4,6 +4,7 @@ class Solution:
     """
 
     def maxProfit(self, prices: List[int]) -> int:
+        
         # Initialize variables
         maxP = 0  # Maximum profit so far
         l = 0  # Index of the leftmost element in the current interval
@@ -20,3 +21,4 @@ class Solution:
             # Update the maximum profit if the current profit is greater
             maxP = max(profit, maxP)
         
+        return maxP

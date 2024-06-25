@@ -1,20 +1,9 @@
 class Solution:
-    """
-    Solution for the valid palindrome problem.
-    Given a string, determine if it is a palindrome, considering only alphanumeric characters.
-    """
+   
 
     def isPalindrome(self, s: str) -> bool:
-        """
-        Check if the given string is a palindrome, considering only alphanumeric characters.
-
-        Args:
-            s (str): The string to check.
-
-        Returns:
-            bool: True if the string is a palindrome, False otherwise.
-        """
-        
+     
+        l, r = 0, len(s) - 1
         # Initialize pointers to the beginning and end of the string.
         while l < r:
             
